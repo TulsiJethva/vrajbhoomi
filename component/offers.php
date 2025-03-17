@@ -3,7 +3,7 @@
         <div class="row gx-0">
             <div class="col-lg-3">
                 <a href="#" class="item" data-tab="tab-1">
-                    <h5>Stay</h5>
+                    <h5>Stay </h5>
                 </a>
             </div>
             <div class="col-lg-3">
