@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="item"> <img src="img/gallery/08.jpg" class="img-fluid" alt="">
+                    <div class="item"> <img src="img/gallery/07.jpg" class="img-fluid" alt="">
                         <div class="curv-butn">
                             <a href="https://www.youtube.com/watch?v=dxhw0A7hx_M" class="vid">
                                 <div class="icon"> <i class="fa-light fa-play"></i> </div>
