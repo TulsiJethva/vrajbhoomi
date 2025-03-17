@@ -16,7 +16,7 @@ define('UPLOADS_URL', 'https://'.$_SERVER['HTTP_HOST'].'/vrajbhoomi/'.WEB_BASE )
 
 require("mysql.inc.php");
 $sql_host = "localhost";
-$sql_db = "surajcineplex45";
+$sql_db = "vrajbhoomi";
 $sql_user = "root";
 $sql_pass = "";
 
