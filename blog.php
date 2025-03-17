@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="subtitle">404 Error Page</div>
-                    <div class="title">Page not found!</div>
+                    <div class="title">Blog</div>
                 </div>
             </div>
         </div>
