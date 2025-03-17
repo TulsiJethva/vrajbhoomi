@@ -106,7 +106,7 @@
                     <div class="col-md-12 mb-25 text-center">
                         <div class="section-subtitle">Resort Services</div>
                         <div class="section-title">Amenities</div>
-                        <p class="mb-25">The experience elementum sesue in the aucantion alesun in sapien fermen miss caleustion in the sapien.</p> 
+                        <p class="mb-25">Where Luxury Meets Convenience – Explore Our Amenities</p> 
                     </div>
                 </div>
                 <div class="row">                   
