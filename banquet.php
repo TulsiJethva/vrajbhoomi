@@ -1,32 +1,86 @@
 <?php include('component/header.php');?>
-    <section class="banner-header bg-img bg-fixed" data-overlay-dark="5" data-background="img/banner/19.jpg">
+    <!-- Header Banner -->
+    <section class="banner-header bg-img bg-fixed" data-overlay-dark="4" data-background="<?php echo SITE;?>img/banner/benquethall.jpg">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-md-12 text-center">
-                    <div class="subtitle">404 Error Page</div>
-                    <div class="title">Page not found!</div>
+                    <h5>Where Every Celebration Becomes a Grand Affair!</h5>
+                    <h1>Benquet Hall</h1>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Not found 404 -->
-    <section class="not-found section-padding">
+    <!-- Page Details -->
+    <section class="page-details section-padding">
         <div class="container">
+           <div class="row">
+                <div class="col-md-12">
+                    <!-- <div class="section-subtitle">A Green Haven for Grand Celebrations</div> -->
+                    <div class="section-title">About Benquet Hall</div>
+                </div>
+            </div>
+            <div class="row mb-30">
+                <div class="col-md-12">
+                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus praesent volutpat nibh ac sodales sodales nunc tincidunt erat sed nisi faucibus, eget sagittis the libero imperdiet nunc risus magna imperdiet gravida ultricies in, aliquam a tortor.</p>
+                    <p>Nestibulum tristique posuere magna quis elementum neque luctus non aenean sed arcu efficitur commodo justo the accumsan massa. Nivamus ac risus in imperdiet mollis id sit amet odio vestibulum dignissim finibus diam this a fermen.</p>
+                </div>
+            </div>
             <div class="row justify-content-center">
-                <div class="col-lg-5 col-md-12 text-center">
-                    <h1>404</h1>
-                    <h3>Sorry, We can't find that page!</h3>
-                    <p>The page you are looking for was moved, removed, renamed or never existed.</p>
-                    <div class="search-form">
-                        <form method="post" action="https://duruthemes.com/demo/html/rixos/light/index.html">
-                            <div class="form-group clearfix">
-                                <input type="search" name="text" value="" placeholder="Search here" required="">
-                                <button type="submit" class="search-button"><span class="fa-light fa-magnifying-glass"></span></button>
-                            </div>
-                        </form>
+                <div class="col-lg-4 col-md-12 mb-15">
+                    <img src="<?php echo SITE;?>img/benquet/1.jpg" class="img-fluid rounded-2" alt="">
+                </div>
+                <div class="col-lg-4 col-md-12 mb-15">
+                    <img src="<?php echo SITE;?>img/benquet/1.jpg" class="img-fluid rounded-2" alt="">
+                </div>
+                <div class="col-lg-4 col-md-12 mb-15">
+                    <img src="<?php echo SITE;?>img/benquet/1.jpg" class="img-fluid rounded-2" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Image -->
+    <section class="galleryscroll section-padding bg-lightbrown">
+        <div class="container-fluid p-0">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center mb-20">
+                    <div class="section-subtitle">Your Dream Event, Our Perfect Venue</div>
+                    <div class="section-title">Party Lawn Gallery</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <a href="<?php echo SITE;?>img/benquet/1.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                                <div class="img"> <img src="<?php echo SITE;?>img/benquet/1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="<?php echo SITE;?>img/benquet/2.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                                <div class="img"> <img src="<?php echo SITE;?>img/benquet/2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="<?php echo SITE;?>img/benquet/3.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                                <div class="img"> <img src="<?php echo SITE;?>img/benquet/3.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="<?php echo SITE;?>img/benquet/4.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                                <div class="img"> <img src="<?php echo SITE;?>img/benquet/4.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="<?php echo SITE;?>img/benquet/5.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                                <div class="img"> <img src="<?php echo SITE;?>img/benquet/5.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Offers -->
+    <?php include('component/offers.php');?>
+
 <?php include('component/footer.php');?>
