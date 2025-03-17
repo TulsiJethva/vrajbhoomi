@@ -13,14 +13,7 @@ define('SITE_DASHBOARD',''.SITE.'dashboard/');
 define('MAX_FILE_SIZE', 1500240); //max 1 MB file size
 define('WEB_BASE', 'upd' );
 define('UPLOADS_URL', 'https://'.$_SERVER['HTTP_HOST'].'/vrajbhoomi/'.WEB_BASE );
-$inactive = 42000;
-if(isset($_SESSION['timeout']) ) {
-     $session_life = time() - $_SESSION['timeout'];
-     if($session_life > $inactive) {
-         header("Location: ".SITE."logout.php");
-     }
-}
-$_SESSION['timeout'] = time();
+
 require("mysql.inc.php");
 $sql_host = "localhost";
 $sql_db = "surajcineplex45";
